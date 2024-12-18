@@ -1,0 +1,117 @@
+.team-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .team-card {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 20px; 
+    padding: 20px;
+    width: calc(33.333% - 40px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  .team-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .card-bottom {
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .team-image {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+  
+  .team-info {
+    text-align: left;
+  }
+  
+  .team-title {
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .linkedin-icon-top-right {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .divider {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  
+  .see-all-team {
+    text-align: right;
+    margin-top: 20px;
+    margin-left: 1130px;
+  }
+  
+  .see-all-team-button {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .see-all-team-button:hover {
+    background-color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .team-card {
+      width: calc(50% - 40px); 
+    }
+    .see-all-team {
+      margin-left: auto; 
+      margin-right: 20px; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .team-card {
+      width: calc(100% - 40px); 
+    }
+    .see-all-team {
+      justify-content: center;
+      margin-left: 0; 
+      margin-right: 0; 
+    }
+    .see-all-team-button {
+      width: 100%; 
+      padding: 10px 80px;
+      margin: 30px;
+    }
+  }
+  

@@ -1,0 +1,86 @@
+.highlight-green {
+    background-color: #B9FF66;
+    color: black;
+    padding: 0 5px; 
+  }
+  
+  .h2 {
+    margin: 40px;
+  }
+  
+  .p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  
+  .Process {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .Process h1 {
+    margin-bottom: 10px;
+  }
+  
+  .Process p {
+    margin-bottom: 30px;
+  }
+  
+  .process-card {
+    background-color: #F3F3F3;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 30px ;
+    padding: 40px; 
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .process-card.expanded {
+    background-color: #B9FF66;
+  }
+  
+  .process-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .process-header img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .process-title {
+    font-size: 1.5em;
+  }
+  
+  .process-card p {
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  @media (max-width: 600px) {
+    .process-card {
+      padding: 15px; 
+    }
+  
+    .process-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .process-header img {
+      margin-top: 10px;
+    }
+  }
+  .divider {
+    border: 0;
+    height: 1px;
+    background: #333;
+    margin: 10px 0;
+  }

@@ -1,0 +1,145 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white; 
+  z-index: 1001;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  
+}
+.navbar-menu a:hover {
+  color: #B9FF66;
+}
+
+.navbar-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  height: 3px;
+  width: 25px;
+  background-color: black;
+  margin: 4px 0;
+}
+
+
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: white;
+    
+  }
+
+  .navbar-menu.open {
+    display: flex;
+  }
+
+  .navbar-menu a {
+    margin: 10px 0;
+  }
+
+  .navbar-toggle {
+    display: flex;
+  }
+}
+
+
+.content-container {
+  margin-top: 10px;
+ 
+}
+
+.custom-h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: left;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  
+}
+
+.custom-p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  width: 100%;
+  max-width: 500px; 
+  margin-bottom: 20px;
+}
+
+.quote-btn {
+  transition: background-color 0.3s ease;
+}
+
+.consultation-btn {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: center;
+  background: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.logos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+  padding: 20px; 
+  gap:10px
+}
+
+.logos-container img {
+  flex: 1 1 150px; 
+  max-width: 150px; 
+  height: auto;
+  margin: 10px; 
+}
+
+
+@media (max-width: 768px) {
+  .logos-container img {
+    flex: 1 1 100px; 
+    max-width: 100px;
+  }
+}

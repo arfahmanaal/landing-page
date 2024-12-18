@@ -1,3 +1,6 @@
+
+This landing page is a React-powered replica of a beautifully crafted design. I've carefully recreated the original layout, preserving its clean aesthetics and intuitive functionality while building it with the latest web technologies as a part of my task. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
